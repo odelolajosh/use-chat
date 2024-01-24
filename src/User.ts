@@ -11,6 +11,7 @@ export type UserParams<UserData = any> = {
   bio?: string;
   presence?: Presence;
   data?: UserData;
+  conversationData?: any;
 };
 
 export class User<UserData = any> {
