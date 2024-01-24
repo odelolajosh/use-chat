@@ -55,7 +55,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "postinstall": "tsc"
   },
   "dependencies": {
     "prop-types": "15.8.1",
