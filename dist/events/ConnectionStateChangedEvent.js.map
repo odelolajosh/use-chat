@@ -1,0 +1,1 @@
+{"version":3,"file":"ConnectionStateChangedEvent.js","sourceRoot":"","sources":["../../src/events/ConnectionStateChangedEvent.ts"],"names":[],"mappings":";;;AAAA,oCAA0D;AAG1D,MAAa,2BAA2B;IAKtC,YAAY,MAAuB;QAH1B,SAAI,GAAG,qBAAa,CAAC,sBAAsB,CAAC;QAInD,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACvB,CAAC;CACF;AARD,kEAQC"}
