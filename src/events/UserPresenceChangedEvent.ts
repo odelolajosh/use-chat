@@ -14,7 +14,7 @@ export class UserPresenceChangedEvent
   readonly userId: UserId;
   readonly presence: Presence;
 
-  constructor({ userId, presence }: UserPresenceChangedEvent) {
+  constructor({ userId, presence }: UserPresenceChangedEventParams) {
     this.userId = userId;
     this.presence = presence;
   }
