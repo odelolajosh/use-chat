@@ -10,5 +10,5 @@ export declare class UserPresenceChangedEvent implements ChatEvent<ChatEventType
     readonly type = ChatEventType.UserPresenceChanged;
     readonly userId: UserId;
     readonly presence: Presence;
-    constructor({ userId, presence }: UserPresenceChangedEvent);
+    constructor({ userId, presence }: UserPresenceChangedEventParams);
 }
