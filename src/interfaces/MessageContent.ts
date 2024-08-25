@@ -56,6 +56,7 @@ export interface AttachmentContent
 export interface AttachmentListContent
   extends MessageContent<MessageContentType.AttachmentList> {
   content: AttachmentContent[];
+  description?: string;
 }
 
 // Attachments can be sent as
